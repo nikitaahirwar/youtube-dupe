@@ -2,76 +2,76 @@ import CommentsList from "./CommentsList";
 
 const commentsData = [
   {
-    name: "Akshay Saini",
+    name: "Nikita Ahirwar",
     text: "Lorem ipsum color sit amet, consecteur adip",
     replies: [],
   },
   {
-    name: "Akshay Saini",
+    name: "Nikita Ahirwar",
     text: "Lorem ipsum color sit amet, consecteur adip",
     replies: [
       {
-        name: "Akshay Saini",
+        name: "Nikita Ahirwar",
         text: "Lorem ipsum color sit amet, consecteur adip",
         replies: [],
       },
       {
-        name: "Akshay Saini",
+        name: "Nikita Ahirwar",
         text: "Lorem ipsum color sit amet, consecteur adip",
         replies: [
           {
-            name: "Akshay Saini",
+            name: "Nikita Ahirwar",
             text: "Lorem ipsum color sit amet, consecteur adip",
             replies: [],
           },
           {
-            name: "Akshay Saini",
+            name: "Nikita Ahirwar",
             text: "Lorem ipsum color sit amet, consecteur adip",
             replies: [
               {
-                name: "Akshay Saini",
+                name: "Nikita Ahirwar",
                 text: "Lorem ipsum color sit amet, consecteur adip",
                 replies: [
                   {
-                    name: "Akshay Saini",
+                    name: "Nikita Ahirwar",
                     text: "Lorem ipsum color sit amet, consecteur adip",
                     replies: [],
                   },
                 ],
               },
               {
-                name: "Akshay Saini",
+                name: "Nikita Ahirwar",
                 text: "Lorem ipsum color sit amet, consecteur adip",
                 replies: [],
               },
             ],
           },
           {
-            name: "Akshay Saini",
+            name: "Nikita Ahirwar",
             text: "Lorem ipsum color sit amet, consecteur adip",
             replies: [],
           },
         ],
       },
       {
-        name: "Akshay Saini",
+        name: "Nikita Ahirwar",
         text: "Lorem ipsum color sit amet, consecteur adip",
         replies: [],
       },
     ],
   },
   {
-    name: "Akshay Saini",
+    name: "Nikita Ahirwar",
     text: "Lorem ipsum color sit amet, consecteur adip",
     replies: [],
   },
   {
-    name: "Akshay Saini",
+    name: "Nikita Ahirwar",
     text: "Lorem ipsum color sit amet, consecteur adip",
     replies: [],
   },
   {
-    name: "Akshay Saini",
+    name: "Nikita Ahirwar",
     text: "Lorem ipsum color sit amet, consecteur adip",
     replies: [],
   },
@@ -79,8 +79,8 @@ const commentsData = [
 
 const CommentsContainer = () => {
   return (
-    <div className="m-5 p-2">
-      <h1 className="font-bold text-2xl">Comments:</h1>
+    <div className="md:m-5 p-1 md:p-2">
+      <h1 className="font-bold md:text-2xl">Comments:</h1>
       <CommentsList comments={commentsData} />
     </div>
   );

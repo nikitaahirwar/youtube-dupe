@@ -17,8 +17,7 @@ const WatchPage = () => {
     <div>
       <div className="p-2 m-2 flex">
         <iframe
-          width="1200"
-          height="600"
+          className="md:w-[1200px] md:h-[620px]"
           src={"https://www.youtube.com/embed/" + videoId}
           title="YouTube video player"
           frameBorder="0"
@@ -26,7 +25,7 @@ const WatchPage = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <div className="p-2 mx-2 w-[37rem] border border-black  bg-slate-100 rounded-lg">
+        <div className="p-2 mx-2 md:inline-block hidden w-[37rem] border border-black  bg-slate-100 rounded-lg">
           <LiveChat />
         </div>
       </div>

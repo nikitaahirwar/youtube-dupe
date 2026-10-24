@@ -22,24 +22,26 @@ const NavBar = () => {
 
   if (!isMenuOpen) {
     return (
-      <div className="p-2">
+      <div className="py-1 md:p-2">
         <Link to="/">
           <div className="flex flex-col items-center gap-1 mb-6">
             <Home size={22} />
-            <span className="text-[10px]">Home</span>
+            <span className="text-[10px] md:inline-block hidden">Home</span>
           </div>
         </Link>
         <div className="flex flex-col items-center gap-1 mb-6">
           <CirclePlay size={22} />
-          <span className="text-[10px]">Shorts</span>
+          <span className="text-[10px] md:inline-block hidden">Shorts</span>
         </div>
         <div className="flex flex-col items-center gap-1 mb-6">
           <PlaySquare size={22} />
-          <span className="text-[10px]">Subscriptions</span>
+          <span className="text-[10px] md:inline-block hidden">
+            Subscriptions
+          </span>
         </div>
         <div className="flex flex-col items-center gap-1 mb-6">
           <UserCircle size={22} />
-          <span className="text-[10px]">You</span>
+          <span className="text-[10px] md:inline-block hidden">You</span>
         </div>
       </div>
     );
